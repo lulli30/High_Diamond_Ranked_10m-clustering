@@ -30,12 +30,11 @@ This dataset is used for clustering and analysis of gameplay patterns, economic 
 
 ## First Five Rows of the Dataset
 
-```
-gameId	blueWins	blueWardsPlaced	blueWardsDestroyed	blueFirstBlood	blueKills	blueDeaths	blueAssists	blueEliteMonsters	blueDragons	...	redAvgLevel	redTotalExperience	redTotalMinionsKilled	redTotalJungleMinionsKilled	redGoldDiff	redExperienceDiff	redCSPerMin	redGoldPerMin	Cluster	Cluster Name
-0	4519157822	0	28	2	1	9	6	11	0	0	...	6.8	17047	197	55	-643	8	19.7	1656.7	0	Gameplay Stats
-1	4523371949	0	12	1	0	5	5	5	0	0	...	6.8	17438	240	52	2908	1173	24.0	1762.0	2	Team Objectives
-2	4521474530	0	15	0	0	7	11	4	1	1	...	6.8	17254	203	28	1172	1033	20.3	1728.5	1	Economic Indicators
-3	4524384067	0	43	1	0	4	5	5	1	0	...	7.0	17961	235	47	1321	7	23.5	1647.8	2	Team Objectives
-4	4436033771	0	75	4	0	6	6	6	0	0	...	7.0	18313	225	67	1004	-230	22.5	1740.4	2	Team Objectives
-```
+| gameId       | blueWins | blueWardsPlaced | blueWardsDestroyed | blueFirstBlood | blueKills | blueDeaths | blueAssists | blueEliteMonsters | blueDragons | ... | redAvgLevel | redTotalExperience | redTotalMinionsKilled | redTotalJungleMinionsKilled | redGoldDiff | redExperienceDiff | redCSPerMin | redGoldPerMin | Cluster | Cluster Name        |
+|-------------|----------|----------------|------------------|---------------|----------|-----------|------------|----------------|------------|-----|------------|------------------|-------------------|----------------------|------------|----------------|------------|-------------|---------|------------------|
+| 4519157822  | 0        | 28             | 2                | 1             | 9        | 6         | 11         | 0              | 0          | ... | 6.8        | 17047            | 197               | 55                   | -643       | 8              | 19.7       | 1656.7      | 0       | Gameplay Stats     |
+| 4523371949  | 0        | 12             | 1                | 0             | 5        | 5         | 5          | 0              | 0          | ... | 6.8        | 17438            | 240               | 52                   | 2908       | 1173           | 24.0       | 1762.0      | 2       | Team Objectives    |
+| 4521474530  | 0        | 15             | 0                | 0             | 7        | 11        | 4          | 1              | 1          | ... | 6.8        | 17254            | 203               | 28                   | 1172       | 1033           | 20.3       | 1728.5      | 1       | Economic Indicators|
+| 4524384067  | 0        | 43             | 1                | 0             | 4        | 5         | 5          | 1              | 0          | ... | 7.0        | 17961            | 235               | 47                   | 1321       | 7              | 23.5       | 1647.8      | 2       | Team Objectives    |
+| 4436033771  | 0        | 75             | 4                | 0             | 6        | 6         | 6          | 0              | 0          | ... | 7.0        | 18313            | 225               | 67                   | 1004       | -230           | 22.5       | 1740.4      | 2       | Team Objectives    |
 
