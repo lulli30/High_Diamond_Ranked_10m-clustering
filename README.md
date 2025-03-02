@@ -25,7 +25,7 @@ pip install -r requirements.txt
     ```
 3. **View results**: The processed dataset `high_diamond_ranked_10min_clustered.csv` will be generated.
 
-## Sample Data (First 5 Rows)
+## Sample Data (First 3 Rows)
 ```
 blueKills  blueDeaths  blueAssists  redKills  redDeaths  redAssists  blueTotalGold  redTotalGold  blueGoldDiff  redGoldDiff  blueDragons  blueHeralds  redDragons  redHeralds  Cluster  Cluster Name
 5          3           7            3        5          4           12000          11500         500           -500         1            0            1           0            0        Gameplay Stats
